@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "refat247/Cradle_Rx",
+  "source_commit": "2d99686fe0c756e8aa597b463f2bc8df910ae328",
+  "artifacts": [
+    {
+      "kind": "original_skill_zip",
+      "version": "1.0.0",
+      "path": "pregnancy-lactation-reader-1.0.0.zip",
+      "sha256": "705f65193c5912a87ee1974e71fcf66c28156c5b04478e370e808a2642174b46",
+      "immutable": true
+    },
+    {
+      "kind": "compiled_offline_reader",
+      "version": "1.3.0",
+      "path": "reader/releases/v1.3.0/Pregnancy_Lactation_Therapeutic_Classes_1.3.0.html",
+      "sha256": "085b5c6ea0c1233b86e42ae90c234b911cb86830a2bbae5f22b1d06fc8f95e4f",
+      "immutable": true,
+      "clinical_release": "HOLD"
+    },
+    {
+      "kind": "uiux_review_atlas",
+      "version": "0.2.0",
+      "path": "atlas/reviews/v0.2.0/index.html",
+      "sha256": "b490bc9ccbee34dda37f132f9eeb9c03ca86b24605f1890f49c9cd61fd8563fa",
+      "clinical_release": "NOT_APPLICABLE",
+      "feature_count": 100,
+      "declared_dependency_edges": 72,
+      "proposal_preview_count": 8,
+      "other_feature_states": "CONTEXT_OR_UNAUDITED",
+      "implementation_approved": false
+    }
+  ],
+  "tests": {
+    "content_byte_integrity": "VERIFIED_PRE_PUSH",
+    "browser_QA": "PREVIOUS_CHECKPOINT_ONLY",
+    "on_device_QA": "NOT_RUN",
+    "independent_clinical_validation": "NOT_DONE"
+  },
+  "note": "Artifact manifest documents provenance, not clinical approval or production deployment."
+}
